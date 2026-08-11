@@ -1,0 +1,28 @@
+[
+  {
+    "id": "asa-cell-workflow",
+    "name": "Cell Workflow Agent",
+    "category": "bioinformatics",
+    "domain": "single-cell analysis",
+    "inputs": "metadata-only task description and synthetic cell-table contract",
+    "outputs": "analysis workflow and representation-quality report",
+    "access": "open-source",
+    "autonomy": "A2",
+    "notes": "A synthetic catalogue fixture for transparent cell-analysis workflow planning.",
+    "verified": "2026-08-11",
+    "sources": ["https://example.org/cell-workflow-agent"]
+  },
+  {
+    "id": "asa-lab-robot",
+    "name": "Laboratory Robot Agent",
+    "category": "physical-lab",
+    "domain": "automated liquid handling",
+    "inputs": "plate protocol",
+    "outputs": "robot commands",
+    "access": "institutional",
+    "autonomy": "A3",
+    "notes": "A synthetic catalogue fixture for physical automation.",
+    "verified": "2026-08-11",
+    "sources": ["https://example.org/lab-robot"]
+  }
+]

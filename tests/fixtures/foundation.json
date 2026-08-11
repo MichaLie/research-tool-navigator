@@ -1,0 +1,28 @@
+[
+  {
+    "id": "bfm-cell-encoder",
+    "name": "Cell Atlas Encoder",
+    "aliases": ["CAE"],
+    "modality": "single-cell transcriptomics",
+    "description": "A synthetic fixture representing a model that creates cell-level numerical representations.",
+    "io": "cell feature summary -> representation matrix",
+    "use_cases": "cell representation and exploratory clustering",
+    "status": "Open code + weights",
+    "year": "2026",
+    "verified": "2026-08-11",
+    "sources": ["https://example.org/cell-encoder"]
+  },
+  {
+    "id": "bfm-molecule-generator",
+    "name": "Molecule Generator",
+    "aliases": [],
+    "modality": "small molecules",
+    "description": "A synthetic fixture for molecular generation.",
+    "io": "molecular prompt -> generated structures",
+    "use_cases": "molecule generation",
+    "status": "Research access",
+    "year": "2026",
+    "verified": "2026-08-11",
+    "sources": ["https://example.org/molecule-generator"]
+  }
+]

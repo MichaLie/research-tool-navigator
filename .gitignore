@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+runs/*
+output/*
+!runs/.gitkeep
+!output/.gitkeep
+catalogues/
+# local working files, never published
+PROJECT_LOG.md
+START_HERE.md
+presentation/
+scripts/build_contracts_reader.py

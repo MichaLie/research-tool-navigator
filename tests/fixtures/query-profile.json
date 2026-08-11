@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1.0",
+  "request_id": "rtn-synthetic-cell-workflow",
+  "research_need": "Find research tools for cell-level analysis that produce numerical representations and a reproducible workflow.",
+  "domain": ["cell biology", "bioinformatics"],
+  "intended_outputs": ["representation matrix", "reproducible analysis workflow"],
+  "input_description": "Coarse description of a synthetic cell-feature table; no rows or records are provided.",
+  "candidate_roles": ["foundation_models", "autonomous_agents", "coding_agents"],
+  "constraints": {
+    "intended_data_classification": "synthetic",
+    "must_run_locally": true,
+    "open_source_required": true,
+    "account_allowed": false,
+    "paid_services_allowed": false,
+    "available_compute": ["local_cpu"],
+    "max_cost_eur": 0
+  },
+  "search": {
+    "indexes": ["foundation_models", "autonomous_agents", "coding_agents"],
+    "domain_terms": ["cell", "single cell"],
+    "outcome_terms": ["representation", "workflow"],
+    "synonyms": ["embedding", "data analysis"],
+    "required_terms": [],
+    "excluded_terms": [],
+    "explicit_candidate_ids": []
+  },
+  "success_criteria": ["The result exposes at least one plausible pathway and explains its evidence limitations."],
+  "non_goals": ["Do not acquire or execute a candidate."],
+  "contains_real_data": false,
+  "contains_secrets": false,
+  "researcher_confirmed": true
+}

@@ -1,0 +1,59 @@
+name: "Submit a research-tool question"
+description: "Submit a real, metadata-only research-tool need for the unseen-query evaluation."
+title: "[question] <short topic>"
+labels: ["unseen-query"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Metadata only.** Describe your research-tool need in your own
+        words, but do not paste data, sequences, images, tables, identifiers,
+        credentials, patient information, or private links. Descriptions of
+        modality, scale, and constraints are welcome.
+
+        If your research need itself cannot be public, email the steward
+        instead (address in the repository README).
+  - type: textarea
+    id: need
+    attributes:
+      label: Your research-tool need, in your own words
+      description: "What do you want a tool to do? Please do not polish the wording; the evaluation uses questions as originally phrased."
+      placeholder: "I need something that can ... and produce ... under ..."
+    validations:
+      required: true
+  - type: input
+    id: domain
+    attributes:
+      label: Scientific domain
+      placeholder: "e.g. spatial transcriptomics, protein engineering, microbial ecology"
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Intended output or decision
+      description: "What result would you act on, and what would you do with it?"
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints that matter
+      description: "e.g. data must stay local, data sensitivity class, available compute, cost ceiling, no accounts, institutional environment."
+  - type: dropdown
+    id: roles
+    attributes:
+      label: Which kinds of candidates are in scope?
+      multiple: true
+      options:
+        - Biological foundation models
+        - Autonomous science agents
+        - Coding / data-analysis tools
+        - Any / not sure
+  - type: checkboxes
+    id: boundaries
+    attributes:
+      label: Boundaries
+      options:
+        - label: "This issue contains no real data, sequences, identifiers, credentials, or private links — descriptions only."
+          required: true
+        - label: "I understand this is a local pilot evaluation; the response is an evidence comparison, not a recommendation, endorsement, or approval."
+          required: true

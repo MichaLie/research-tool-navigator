@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Private question (not suitable for a public issue)
+    url: mailto:michaela.liegertova@img.cas.cz
+    about: Email the steward if your research need itself cannot be described publicly.

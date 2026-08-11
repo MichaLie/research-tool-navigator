@@ -1,0 +1,38 @@
+[
+  {
+    "id": "rca-local-cell-analysis",
+    "name": "Local Cell Analysis Assistant",
+    "current_name": "Local Cell Analysis Assistant",
+    "vendor": "Synthetic fixture",
+    "type": "cli",
+    "capability": "workflow assistance",
+    "deployment": "local",
+    "openness": "open-source",
+    "runs_locally": true,
+    "use_cases": ["single-cell data analysis", "reproducible workflow generation", "representation reporting"],
+    "data_handling": "local",
+    "data_handling_note": "Synthetic fixture; local-only workflow description.",
+    "pricing": "Free",
+    "notes": "A synthetic catalogue fixture for reproducible cell analysis.",
+    "verified": "2026-08-11",
+    "sources": ["https://example.org/local-cell-analysis"]
+  },
+  {
+    "id": "rca-cloud-completion",
+    "name": "Cloud Completion Assistant",
+    "current_name": "Cloud Completion Assistant",
+    "vendor": "Synthetic fixture",
+    "type": "ide-extension",
+    "capability": "code completion",
+    "deployment": "cloud",
+    "openness": "commercial",
+    "runs_locally": false,
+    "use_cases": ["general code completion"],
+    "data_handling": "cloud",
+    "data_handling_note": "Synthetic fixture; remote inference.",
+    "pricing": "Paid subscription",
+    "notes": "A synthetic catalogue fixture for general coding assistance.",
+    "verified": "2026-08-11",
+    "sources": ["https://example.org/cloud-completion"]
+  }
+]
