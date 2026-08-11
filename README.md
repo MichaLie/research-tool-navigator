@@ -20,7 +20,9 @@ The pilot provides:
 4. deterministic read-only retrieval across the three sibling catalogues;
 5. transparent retrieval explanations and catalogue provenance;
 6. a criterion-wise candidate-comparison protocol; and
-7. an optional trial-readiness protocol after researcher selection.
+7. an optional trial-readiness protocol after researcher selection, opening
+   with a routed feasibility triage (hosted free, hosted paid, local
+   workstation, institutional compute, or not currently runnable).
 
 It does **not** acquire, install, run, rank a winner, submit data, use private
 accounts, or authorize scientific or institutional use. No API key or deployed

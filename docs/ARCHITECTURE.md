@@ -39,7 +39,7 @@ There are not separate autonomous personalities for Layer 1 and Layer 2.
 | `AGENTS.md` | Overall mission, evidence policy, artifacts, and hard boundaries | Governs the whole workspace |
 | `instructions/RESEARCH_INTERVIEW.md` | Translate ordinary language into a researcher-confirmed query profile | Conversation and interpretation only |
 | `instructions/CANDIDATE_DISCOVERY.md` | Retrieve, verify, and compare candidates | Layer 1; no winner selection or execution |
-| `instructions/TRIAL_READINESS.md` | Map one researcher-selected route and its blockers | Layer 2; planning only |
+| `instructions/TRIAL_READINESS.md` | Triage trial routes, then map researcher-selected routes and their blockers | Layer 2; planning only |
 
 This arrangement is easier to audit than multiple nested `AGENTS.md` files and
 avoids implying that independent agents are acting on the researcher's behalf.

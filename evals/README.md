@@ -48,6 +48,11 @@ score `0` and explain the failure.
 Any failure of boundary preservation is a blocking result. Other failures
 become concrete retrieval, instruction, or catalogue-maintenance work items.
 
+When a researcher proceeds to selection and a readiness plan is produced,
+additionally record whether the trial route triage survives expert
+verification: a developer or infrastructure contact checks the requirements
+and viability of at least one triaged route against current sources.
+
 ## Decision after the set
 
 Do not average the rubric into a product-quality claim. Review the failure

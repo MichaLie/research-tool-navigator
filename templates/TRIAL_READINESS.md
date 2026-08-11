@@ -8,8 +8,20 @@
 - Candidate selected by researcher:
 - Selection date:
 - Intended scientific operation:
-- Proposed route, if known:
+- Route(s) the researcher asked to examine, if any:
 - Evidence package used:
+
+## Trial route triage
+
+Routes are listed in increasing requirement burden. `unknown` is a valid and
+expected value; do not replace it with an estimate.
+
+| Route class | Viability | Key requirements (each with basis) | Cost basis (source, date) | Unresolved governance | Delegation owner | Next non-executing step |
+|---|---|---|---|---|---|---|
+| | | | | | | |
+
+Production-fit note (trial feasibility vs. the researcher's intended data
+classification):
 
 ## Requirement map
 
